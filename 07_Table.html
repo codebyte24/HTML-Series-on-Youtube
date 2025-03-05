@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Tag</title>
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+      }
+      th {
+        background-color: rgb(128, 128, 243);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Table in Html</h1>
+    <table class="table">
+      <tr>
+        <th>Heading1</th>
+        <th>Heading2</th>
+        <th>Heading3</th>
+        <th>Heading4</th>
+      </tr>
+      <tr>
+        <td>Row1 Column1</td>
+        <td>Row1 Column2</td>
+        <td>Row1 Column3</td>
+        <td>Row1 Column4</td>
+      </tr>
+      <tr>
+        <td>Row2 Column1</td>
+        <td>Row2 Column2</td>
+        <td>Row2 Column3</td>
+        <td>Row2 Column4</td>
+      </tr>
+      <tr>
+        <td>Row3 Column1</td>
+        <td>Row3 Column2</td>
+        <td>Row3 Column3</td>
+        <td>Row3 Column4</td>
+      </tr>
+      <tr>
+        <td>Row4 Column1</td>
+        <td>Row4 Column2</td>
+        <td>Row4 Column3</td>
+        <td>Row4 Column4</td>
+      </tr>
+    </table>
+    <br />
+    <hr />
+    <h1>Student Data</h1>
+    <table border="2">
+      <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Mobile No</th>
+        <th>Address</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Rakesh</td>
+        <td>987654321</td>
+        <td>Mumbai</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Farhan</td>
+        <td>999999888</td>
+        <td>Pune</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Rajesh</td>
+        <td>999999887</td>
+        <td>Uttar Pradesh</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Yogesh</td>
+        <td>997856542</td>
+        <td>Rajasthan</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Aftab</td>
+        <td>997856542</td>
+        <td>Rajasthan</td>
+      </tr>
+    </table>
+    <br />
+    <hr />
+    <h2>Rowspan and Colspan</h2>
+    <table border="1">
+      <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th colspan="2">Mobile No</th>
+        <!-- <th>Mobile No 2</th> -->
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Rakesh</td>
+        <td>987654321</td>
+        <td>987654321</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Farhan</td>
+        <td>999999888</td>
+        <td>999999888</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Rajesh</td>
+        <td>999999887</td>
+        <td>999999887</td>
+      </tr>
+      <tr></tr>
+    </table>
+    <br />
+    <hr />
+    <table border="1">
+      <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Mobile No</th>
+        <!-- <th>Mobile No 2</th> -->
+      </tr>
+      <tr>
+        <td rowspan="2">1</td>
+        <td rowspan="2">Rakesh</td>
+        <td>987654321</td>
+      </tr>
+      <tr>
+        <!-- <td>1</td> -->
+        <!-- <td>Rakesh</td> -->
+        <td>985322354</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Farhan</td>
+        <td>999999888</td>
+      </tr>
+    </table>
+  </body>
+</html>
